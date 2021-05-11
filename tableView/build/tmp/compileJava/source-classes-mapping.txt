@@ -1,0 +1,6 @@
+org/afpa/gui/Client.java
+ org.afpa.gui.Client
+org/afpa/Main.java
+ org.afpa.Main
+org/afpa/gui/Form1Controller.java
+ org.afpa.gui.Form1Controller

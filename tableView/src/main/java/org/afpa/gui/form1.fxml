@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.Form1Controller">
+   <children>
+      <TableView fx:id="lst_clients" layoutX="54.0" layoutY="64.0" prefHeight="461.0" prefWidth="442.0">
+        <columns>
+          <TableColumn fx:id="col_prenom" prefWidth="141.0" text="Prénom" />
+          <TableColumn fx:id="col_nom" minWidth="4.0" prefWidth="149.0" text="Nom" />
+            <TableColumn fx:id="col_ville" minWidth="0.0" prefWidth="151.0" text="Ville" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txt_prenom" layoutX="531.0" layoutY="120.0" promptText="Prénom..." />
+      <TextField fx:id="txt_nom" layoutX="531.0" layoutY="236.0" promptText="Nom..." />
+      <TextField fx:id="txt_ville" layoutX="531.0" layoutY="353.0" promptText="Ville..." />
+      <Button fx:id="btn_save" layoutX="546.0" layoutY="444.0" mnemonicParsing="false" onAction="#save" text="Sauver" />
+      <Button fx:id="btn_cancel" layoutX="620.0" layoutY="444.0" mnemonicParsing="false" onAction="#cancel" text="Annuler" />
+      <Button fx:id="btn_delete" layoutX="548.0" layoutY="486.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="130.0" text="Supprimer" />
+      <Label layoutX="534.0" layoutY="81.0" prefHeight="17.0" prefWidth="143.0" text="Prénom" />
+      <Label layoutX="534.0" layoutY="204.0" prefHeight="17.0" prefWidth="143.0" text="Nom" />
+      <Label layoutX="534.0" layoutY="328.0" prefHeight="17.0" prefWidth="143.0" text="Ville" />
+   </children>
+</AnchorPane>

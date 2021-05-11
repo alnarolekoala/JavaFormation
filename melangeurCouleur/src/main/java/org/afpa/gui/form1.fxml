@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="593.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.Form1Controller">
+   <children>
+      <Label fx:id="melangeur" layoutX="71.0" layoutY="40.0" prefHeight="238.0" prefWidth="480.0" />
+      <Label fx:id="redLabel" layoutX="419.0" layoutY="311.0" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: red;" textAlignment="CENTER" />
+      <Label fx:id="blueLabel" layoutX="419.0" layoutY="395.0" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: blue;" textAlignment="CENTER" />
+      <Label fx:id="greenLabel" layoutX="419.0" layoutY="354.0" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: green;" textAlignment="CENTER" />
+      <Slider fx:id="redSlidder" layoutX="97.0" layoutY="322.0" max="255.0" onMouseReleased="#melange" prefHeight="14.0" prefWidth="276.0" />
+      <Slider fx:id="greenSlider" layoutX="97.0" layoutY="372.0" max="255.0" onMouseReleased="#melange" prefHeight="14.0" prefWidth="276.0" />
+      <Slider fx:id="blueSlider" layoutX="97.0" layoutY="413.0" max="255.0" onMouseReleased="#melange" prefHeight="14.0" prefWidth="276.0" />
+   </children>
+</AnchorPane>
