@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.Form1Controller">
+   <children>
+      <TableView fx:id="lst_clients" layoutX="54.0" layoutY="64.0" prefHeight="461.0" prefWidth="442.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="141.0" text="ID" />
+          <TableColumn fx:id="col_nom" minWidth="4.0" prefWidth="149.0" text="Nom" />
+            <TableColumn fx:id="col_url" minWidth="0.0" prefWidth="151.0" text="URL" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txt_id" layoutX="531.0" layoutY="120.0" />
+      <TextField fx:id="txt_nom" layoutX="531.0" layoutY="236.0" />
+      <TextField fx:id="txt_url" layoutX="531.0" layoutY="353.0" />
+      <Button fx:id="btn_save" layoutX="546.0" layoutY="444.0" mnemonicParsing="false" onAction="#add" text="Ajouter" />
+      <Button fx:id="btn_cancel" layoutX="620.0" layoutY="444.0" mnemonicParsing="false" onAction="#update" text="Modifier" />
+      <Button fx:id="btn_delete" layoutX="548.0" layoutY="486.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="130.0" text="Supprimer" />
+      <Label layoutX="534.0" layoutY="81.0" prefHeight="17.0" prefWidth="143.0" text="ID" />
+      <Label layoutX="534.0" layoutY="204.0" prefHeight="17.0" prefWidth="143.0" text="Nom" />
+      <Label layoutX="534.0" layoutY="328.0" prefHeight="17.0" prefWidth="143.0" text="URL" />
+   </children>
+</AnchorPane>

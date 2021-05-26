@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.ExoDeuxController">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="428.0" prefWidth="616.0">
+         <children>
+            <Label layoutX="97.0" layoutY="106.0" prefHeight="17.0" prefWidth="179.0" text="Choix du fournisseur" />
+            <ComboBox fx:id="dropDown" layoutX="276.0" layoutY="103.0" onAction="#chargementCommande" prefHeight="26.0" prefWidth="221.0" />
+            <TextArea fx:id="textareaListe" editable="false" layoutX="100.0" layoutY="167.0" prefHeight="200.0" prefWidth="416.0" />
+            <Label layoutX="97.0" layoutY="139.0" prefHeight="18.0" prefWidth="258.0" text="Liste des commandes" />
+            <Button fx:id="boutonRetour" layoutX="28.0" layoutY="379.0" mnemonicParsing="false" onAction="#retourIndex" text="Retour" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

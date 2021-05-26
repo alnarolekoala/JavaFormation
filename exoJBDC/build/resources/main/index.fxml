@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="303.0" prefWidth="566.0" style="-fx-background-color: orange;" stylesheets="@org/afpa/gui/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.IndexController">
+   <children>
+      <Button fx:id="exoUn" alignment="CENTER" layoutX="97.0" layoutY="142.0" mnemonicParsing="false" onAction="#goExoUn" prefHeight="66.0" prefWidth="99.0" stylesheets="@org/afpa/gui/style.css" text="Exo 1" textFill="WHITE" />
+      <Button fx:id="exoDeux" alignment="CENTER" layoutX="234.0" layoutY="142.0" mnemonicParsing="false" onAction="#goExoDeux" prefHeight="66.0" prefWidth="99.0" text="Exo 2" textFill="WHITE" />
+      <Button fx:id="exoTrois" alignment="CENTER" layoutX="373.0" layoutY="142.0" mnemonicParsing="false" onAction="#goExoTrois" prefHeight="66.0" prefWidth="99.0" text="Exo 3" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="111.0" layoutY="32.0" prefHeight="51.0" prefWidth="321.0" text="Menu" textAlignment="CENTER">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

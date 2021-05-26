@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: black;
+    -fx-border-color: purple;
+    -fx-font-weight: 800;
+    -fx-border-radius: 10px;
+    -fx-border-width: 3;
+    -fx-border-insets: 15;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8),10,0,0,0);
+}
